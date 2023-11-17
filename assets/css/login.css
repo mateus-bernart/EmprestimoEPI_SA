@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+    width: 100%; /* Set the width as needed */
+    margin-bottom: 10px;
+    border-radius: 0; /* Optional: Adjust the border-radius as needed */
+}
+
+/* Other styles remain unchanged */
